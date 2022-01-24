@@ -1,0 +1,2573 @@
+comments{
+Author:ICsleep
+LevelType:Gimmick,NoLevel
+Length:Infinite
+LevelType1:Gimmick
+LevelType2:No Level
+Asset:C:\Users\Panda\Documents\ManicMiners\Levels\ASSETS\Sounds\Tetris
+Info:Well this is Tetris in MM ^^ have fun
+This text i only readable on this screen atm anyway ;P
+}
+info{
+rowcount:32
+colcount:32
+camerapos:Translation: X=4550.187 Y=4199.700 Z=329.700 Rotation: P=0.999994 Y=0.000000 R=0.000000 Scale X=1.000 Y=1.000 Z=1.000
+biome:rock
+creator:ICsleep
+erosioninitialwaittime:10
+version:2020-12-06-1
+camerazoom:9900.0
+}
+tiles{
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,24,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,24,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,24,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,24,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,24,38,38,38,38,38,38,38,38,1,1,1,1,1,1,1,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,14,14,14,14,14,14,14,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,14,14,14,14,14,14,14,38,38,
+38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,
+}
+height{
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+}
+resources{
+crystals:
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+ore:
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+}
+objectives{
+}
+buildings{
+}
+landslidefrequency{
+}
+lavaspread{
+}
+miners{
+}
+briefing{
+Welcome to Tetris (V 1.2)
+
+There are 5 Power Paths as inputs
+
+The 2 top ones are for Rotating
+
+The Left and Right for moving
+
+The Middel one for Dropping
+
+
+Game Infos :
+
+Every 10 Lines you level up
+
+Points are given like
+
+1 Line = 10
+2 Lines= 40
+3 Lines= 90
+4 Lines= 200 (Tetris)
+
+Points get multiplyt by your Level
+
+Have Fun 
+
+
+
+
+Tetris Version 1.3
+
+-Added Music
+
+Tetris Version 1.2
+
+-Replaced Water Block with Recharg Seam Flat Block
+-Fixt the Spinning Bug
+-Cleand the Code a bit
+-Replaced Lave/Water 7 segment displays
+
+Tetris Version 1.1
+
+-Made the GameOver Screen Fancyier
+
+Tetris Version 1.0
+
+-Inital Version
+
+}
+briefingsuccess{
+
+}
+briefingfailure{
+
+}
+vehicles{
+}
+script{
+
+#fix::place:0,0,38;
+
+#DEBUG "Cheats"
+
+when(click:0,0)[addClearedCline]
+
+addClearedCline::globalCleardLines+=1;
+
+#Game Field 10 x 20
+
+
+
+
+#display code
+
+int numberX=0
+
+int numdisplayX=22
+int numdisplayY=29
+
+int toPlaceX=0
+int toPlaceY=0
+
+updateNumberX::((numberX==0))displayNum0;
+((numberX==1))displayNum1;
+((numberX==2))displayNum2;
+((numberX==3))displayNum3;
+((numberX==4))displayNum4;
+((numberX==5))displayNum5;
+((numberX==6))displayNum6;
+((numberX==7))displayNum7;
+((numberX==8))displayNum8;
+((numberX==9))displayNum9;
+
+# 0
+displayNum0::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 1
+displayNum1::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+
+# 2
+displayNum2::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 3
+displayNum3::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 4
+displayNum4::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+
+# 5
+displayNum5::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 6
+displayNum6::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 7
+displayNum7::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,14;
+
+# 8
+displayNum8::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+# 9
+displayNum9::toPlaceX=numdisplayX+1;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#Top bar
+toPlaceY=numdisplayY;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#topLeft
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-1;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#topright
+toPlaceY=numdisplayY-2;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#middel bar
+toPlaceY=numdisplayY-3;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX;#botLeft
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,14;
+toPlaceX=numdisplayX+3;#botright
+toPlaceY=numdisplayY-4;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+3;#bptright
+toPlaceY=numdisplayY-5;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+1;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+toPlaceX=numdisplayX+2;#bot bar
+toPlaceY=numdisplayY-6;
+place:toPlaceX,toPlaceY,142;
+
+
+
+
+#Level Display
+
+updateLevelDisplay::numdisplayX=27;
+numdisplayY=29;
+((Level==1))setLevel1;
+((Level==2))setLevel2;
+((Level==3))setLevel3;
+((Level==4))setLevel4;
+((Level==5))setLevel5;
+((Level==6))setLevel6;
+((Level==7))setLevel7;
+((Level==8))setLevel8;
+((Level==9))setLevel9;
+((Level==10))setLevel10;
+((Level>10))setLevel11;
+
+setLevel1::numberX=1;
+updateNumberX;
+
+setLevel2::numberX=2;
+updateNumberX;
+
+setLevel3::numberX=3;
+updateNumberX;
+
+setLevel4::numberX=4;
+updateNumberX;
+
+setLevel5::numberX=5;
+updateNumberX;
+
+setLevel6::numberX=6;
+updateNumberX;
+
+setLevel7::numberX=7;
+updateNumberX;
+
+setLevel8::numberX=8;
+updateNumberX;
+
+setLevel9::numberX=9;
+updateNumberX;
+
+setLevel10::numberX=0;
+updateNumberX;
+wait:0.1;
+numdisplayX=22;
+numdisplayY=29;
+numberX=1;
+updateNumberX;
+
+setLevel11::numberX=1;
+updateNumberX;
+wait:0.1;
+numdisplayX=22;
+numdisplayY=29;
+numberX=1;
+updateNumberX;
+
+
+#Blocks
+
+    #block 1 [][][][] Powered power path WORKS
+setBlock1::pos1x=8;
+pos1y=29;
+pos2x=8;
+pos2y=28;
+pos3x=8;
+pos3y=27;
+pos4x=8;
+pos4y=26;
+currentBlockMat=25;
+
+    #block 2 [] Recharge Seam WORKS
+    #        [][][]  
+setBlock2::pos1x=7;
+pos1y=29;
+pos2x=7;
+pos2y=28;
+pos3x=8;
+pos3y=28;
+pos4x=9;
+pos4y=28;
+currentBlockMat=150;
+
+    #block 3     [] rubble wrong WORKS
+    #        [][][]  
+setBlock3::pos1x=9;
+pos1y=29;
+pos2x=7;
+pos2y=28;
+pos3x=8;
+pos3y=28;
+pos4x=9;
+pos4y=28;
+currentBlockMat=5;
+
+    #block 4 [][] slimy slug hole WORKS
+    #        [][]  
+setBlock4::pos1x=7;
+pos1y=29;
+pos2x=8;
+pos2y=29;
+pos3x=7;
+pos3y=28;
+pos4x=8;
+pos4y=28;
+currentBlockMat=12;
+
+    #block 5   [][] power path in progress WORKS
+    #        [][]  
+setBlock5::pos1x=7;
+pos1y=29;
+pos2x=8;
+pos2y=29;
+pos3x=6;
+pos3y=28;
+pos4x=7;
+pos4y=28;
+currentBlockMat=13;
+
+    #block 6 [][] erosion WORKS
+    #          [][] 
+setBlock6::pos1x=7;
+pos1y=29;
+pos2x=8;
+pos2y=29;
+pos3x=8;
+pos3y=28;
+pos4x=9;
+pos4y=28;
+currentBlockMat=9;
+
+    #block 7   [] power path buildings WORKS
+    #        [][][] 
+setBlock7::pos1x=8;
+pos1y=29;
+pos2x=7;
+pos2y=28;
+pos3x=8;
+pos3y=28;
+pos4x=9;
+pos4y=28;
+currentBlockMat=14;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PLayer
+
+int Level=1
+int globalCleardLines=0
+
+int Points=0
+
+    #current block pos
+int pos1x=0
+int pos1y=0
+int pos2x=0
+int pos2y=0
+int pos3x=0
+int pos3y=0
+int pos4x=0
+int pos4y=0
+
+int next1x=0
+int next2x=0
+int next3x=0
+int next4x=0
+
+int next1y=0
+int next2y=0
+int next3y=0
+int next4y=0
+
+int curRotation=0
+int lastRotation=0
+
+    #controlling stuff
+
+int userHasBlock=0
+# 0 = dosnt have block , spawn new block
+# 1 = has block , update it
+# 2 = block landed , look for cleared lines
+float curTick=0.5
+int RNG=1
+int landed=0
+int one=1
+int zero=0
+
+    #Next Block
+
+int nextBlock=0
+
+    #Current Block
+
+int currentBlockMat=25
+
+string Hello="Welcome to Tetris"
+string Hello2="The Game starts in 5 seconds"
+string TickMSG="TICK"
+string TigMSG="TIG"
+string UpBlock="Update Block"
+
+
+int gameover=0
+
+int startX=0
+int startY=0
+
+
+
+#GAME script
+
+when(time:1)[setUp]
+when(time:1)[msg:Hello]
+when(time:3)[msg:Hello2]
+when(time:8)[UPDATEFirst]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################
+
+setUp::numberX=0;
+numdisplayX=2;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=0;
+numdisplayX=8;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=0;
+numdisplayX=14;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=0;
+numdisplayY=7;
+numdisplayX=20;
+updateNumberX;
+wait:0.1;
+numberX=0;
+numdisplayY=7;
+numdisplayX=26;
+updateNumberX;
+wait:0.1;
+numberX=1;
+numdisplayX=27;
+numdisplayY=29;
+updateNumberX;
+wait:0.1;
+numberX=0;
+numdisplayX=22;
+numdisplayY=29;
+updateNumberX;
+
+
+UPDATEFirst::RNG=random(1)(7);
+StartMusic;
+UPDATE;
+
+
+
+    #Music
+
+int MusicChoosing=0
+
+StartMusic::MusicChoosing=random(0)(3);
+((MusicChoosing<2))[loopTrack1][loopTrack2];
+
+loopTrack1::((Level<5))[sound:Tetris\Music1][sound:Tetris\Music1Fast];
+truewait:181;
+((gameover==0))loopTrack1;
+
+loopTrack2::((Level<5))[sound:Tetris\Music2][sound:Tetris\Music2Fast];
+truewait:181;
+((gameover==0))loopTrack2;
+
+    #Clock
+
+UPDATE::wait:curTick;
+((gameover==0))[UPDATE2][GameOver];
+
+UPDATE2::((userHasBlock==2))[checkRows][UPDATE3];
+
+UPDATE3::((userHasBlock==1))updateBlockX;
+((userHasBlock==0))createBlock;
+Tig;
+
+
+
+Tig::wait:curTick;
+UPDATE;
+
+
+
+###############################################
+
+
+
+
+
+
+
+
+
+    #Create Block
+
+createBlock::((RNG==1))setBlock1;
+((RNG==2))setBlock2;
+((RNG==3))setBlock3;
+((RNG==4))setBlock4;
+((RNG==5))setBlock5;
+((RNG==6))setBlock6;
+((RNG==7))setBlock7;
+RNG=random(1)(7);# display next block on Display
+DisplayNextBlock;
+spawnBlock;
+
+spawnBlock::place:pos1x,pos1y,currentBlockMat;
+place:pos2x,pos2y,currentBlockMat;
+place:pos3x,pos3y,currentBlockMat;
+place:pos4x,pos4y,currentBlockMat;
+startX=pos1x;
+startY=pos1y;
+curRotation=0;
+lastRotation=0;
+userHasBlock=one;
+
+
+
+
+
+    #Block Display
+DisplayNextBlock::place:16,28,1;
+place:17,28,1;
+place:18,28,1;
+place:16,27,1;
+place:17,27,1;
+place:18,27,1;
+place:16,26,1;
+place:17,26,1;
+place:18,26,1;
+place:16,25,1;
+place:17,25,1;
+place:18,25,1;
+wait:0.1;
+((RNG==1))displayBlock1;
+((RNG==2))displayBlock2;
+((RNG==3))displayBlock3;
+((RNG==4))displayBlock4;
+((RNG==5))displayBlock5;
+((RNG==6))displayBlock6;
+((RNG==7))displayBlock7;
+
+##block 1 [][][][] Powered power path WORKS     "MAT = 25"
+
+##block 2 [] recharg seam WORKS
+#         [][][]                                "Mat = 150"
+
+##block 3     [] rubble wrong WORKS
+#         [][][]                                "Mat = 5 "
+
+#block 4 [][] slimy slug hole WORKS
+#        [][]                                   "Mat = 12"
+
+#block 5   [][] power path in progress WORKS
+#        [][]                                   "Mat = 13"
+
+#block 6 [][] erosion WORKS
+#          [][]                                 "Mat = 9 "
+
+#block 7   [] power path buildings WORKS
+#        [][][]                                 "Mat = 14"
+
+displayBlock1::place:17,28,25;
+place:17,27,25;
+place:17,26,25;
+place:17,25,25;
+
+displayBlock2::place:16,27,150;
+place:16,26,150;
+place:17,26,150;
+place:18,26,150;
+
+displayBlock3::place:18,27,5;
+place:16,26,5;
+place:17,26,5;
+place:18,26,5;
+
+displayBlock4::place:16,27,12;
+place:17,27,12;
+place:16,26,12;
+place:17,26,12;
+
+displayBlock5::place:17,27,13;
+place:18,27,13;
+place:16,26,13;
+place:17,26,13;
+
+displayBlock6::place:16,27,9;
+place:17,27,9;
+place:17,26,9;
+place:18,26,9;
+
+displayBlock7::place:17,27,14;
+place:16,26,14;
+place:17,26,14;
+place:18,26,14;
+
+
+
+
+
+
+
+
+
+
+    # Update block
+
+updateBlockX::place:pos1x,pos1y,1; # clear position
+place:pos2x,pos2y,1;
+place:pos3x,pos3y,1;
+place:pos4x,pos4y,1;
+next1y=pos1y; #save current position
+next2y=pos2y;
+next3y=pos3y;
+next4y=pos4y;
+next1x=pos1x;
+next2x=pos2x;
+next3x=pos3x;
+next4x=pos4x;
+((playerMove==1))[playerMoveBlock][updateBlockY] #if user did input do that else drop 1 down
+
+updateBlockY::next1y-=1; #set's the one down positions
+next2y-=1;
+next3y-=1;
+next4y-=1;
+CheckY; #check if this position is legit to place
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Player move
+
+int forceDown=0 
+#no idea if i will implement that
+
+int playerMove=0
+int moveOption=0
+
+int moveCount=0
+
+int pmX=0
+
+int rotate=0
+
+int hit=0
+
+int checkXPos1=0
+int checkXPos2=0
+int checkXPos3=0
+int checkXPos4=0
+
+int checkNext1=0
+int checkNext2=0
+int checkNext3=0
+int checkNext4=0
+
+#click inputs
+
+when(click:18,14)[klicktL]
+
+klicktL::playerMove=1;
+moveCount+=1;
+((moveOption==3))moveCount=1;
+moveOption=1;
+((moveCount==1))moveCount=2;
+
+when(click:22,14)[klicktD]
+
+klicktD::playerMove=1;
+moveOption=2;
+curTick=0.0;
+
+when(click:26,14)[klicktR]
+
+klicktR::playerMove=1;
+moveCount+=1;
+((moveOption==1))moveCount=1;
+moveOption=3;
+((moveCount==1))moveCount=2;
+
+when(click:20,17)[klicktRL]
+
+klicktRL::playerMove=1;
+moveCount+=1;
+((moveOption==5))moveCount=1;
+moveOption=4;
+
+when(click:24,17)[klicktRR]
+
+klicktRR::playerMove=1;
+moveCount+=1;
+((moveOption==4))moveCount=1;
+moveOption=5;
+
+
+
+# move code
+
+
+playerMoveBlock::((moveOption==1))pmX-=1; #move left
+((moveOption==3))pmX=1; # move right
+((moveOption==2))forceDown=1; #speed up down
+((moveOption==4))rotate=1; # rotate Left
+((moveOption==5))rotate=2; # rotate right
+checkNext1=next1x;
+checkNext2=next2x;
+checkNext3=next3x;
+checkNext4=next4x;
+((rotate>0))[playerMoveBlock1][playerMoveBlock2]; #rotate block
+
+
+playerMoveBlock2::((moveCount!=0))[checkMove][playerMoveBlockEnd];
+
+checkMove::next1x=checkNext1;
+next2x=checkNext2;
+next3x=checkNext3;
+next4x=checkNext4;
+checkNext1+=pmX;
+checkNext2+=pmX;
+checkNext3+=pmX;
+checkNext4+=pmX;
+checkXPos1=get(checkNext1)(next1y);
+checkXPos2=get(checkNext2)(next2y);
+checkXPos3=get(checkNext3)(next3y);
+checkXPos4=get(checkNext4)(next4y);
+((checkXPos1!=1))hit=1;
+((checkXPos2!=1))hit=1;
+((checkXPos3!=1))hit=1;
+((checkXPos4!=1))hit=1;
+moveCount-=1;
+((hit==1))moveCount=0;
+playerMoveBlock2;
+
+playerMoveBlockEnd::rotate=0;
+hit=0;
+playerMove=0;
+pmx=0;
+checkXPos1=0;
+checkXPos2=0;
+checkXPos3=0;
+checkXPos4=0;
+checkNext1=0;
+checkNext2=0;
+checkNext3=0;
+checkNext4=0;
+updateBlockY; #am ende
+
+
+
+# rotational stuff, ps it's so mutch
+
+int newRpos1x=0
+int newRpos2x=0
+int newRpos3x=0
+int newRpos4x=0
+
+int newRpos1y=0
+int newRpos2y=0
+int newRpos3y=0
+int newRpos4y=0
+
+##block 1 [][][][] Powered power path WORKS     "MAT = 25"
+
+##block 2 [] recharg seam WORKS
+#         [][][]                                "Mat = 150"
+
+##block 3     [] rubble wrong WORKS
+#         [][][]                                "Mat = 5 "
+
+#block 4 [][] slimy slug hole WORKS
+#        [][]                                   "Mat = 12"
+
+#block 5   [][] power path in progress WORKS
+#        [][]                                   "Mat = 13"
+
+#block 6 [][] erosion WORKS
+#          [][]                                 "Mat = 9 "
+
+#block 7   [] power path buildings WORKS
+#        [][][]                                 "Mat = 14"
+
+playerMoveBlock1::((currentBlockMat==25))rotate1T;
+((currentBlockMat==150))rotate2T;
+((currentBlockMat==5))rotate3T;
+((currentBlockMat==12))rotate4T;
+((currentBlockMat==13))rotate5T;
+((currentBlockMat==9))rotate6T;
+((currentBlockMat==14))rotate7T;
+
+
+##block 1 [][][][] Powered power path WORKS     "MAT = 25"
+
+rotate1T::((curRotation==0))[rotate11][rotate10];
+
+rotate11::newRpos1x=next1x+2;
+newRpos1y=next1y-2;
+newRpos2x=next2x+1;
+newRpos2y=next2y-1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x-1;
+newRpos4y=next4y+1;
+curRotation=1;
+checkRotation;
+
+rotate10::newRpos1x=next1x-2;
+newRpos1y=next1y+2;
+newRpos2x=next2x-1;
+newRpos2y=next2y+1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x+1;
+newRpos4y=next4y-1;
+curRotation=0;
+checkRotation;
+
+
+
+
+##block 2 [] recharg seam WORKS
+#         [][][]                                "Mat = 150"
+
+rotate2T::((rotate==1))[rotate2TL][rotate2TR];#Left
+
+rotate2TL::((curRotation==0))[rotate23L][rotateTest20L];
+
+rotateTest20L::((curRotation==1))[rotate20L][rotateTest21L];
+
+rotateTest21L::((curRotation==2))[rotate21L][rotateTest22L];
+
+rotateTest22L::((curRotation==3))rotate22L;
+
+
+rotate23L::newRpos1x=next1x;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y;
+newRpos3x=next3x;
+newRpos3y=next3y+1;
+newRpos4x=next4x-1;
+newRpos4y=next4y+2;
+curRotation=3;
+checkRotation;
+
+rotate22L::newRpos1x=next1x+1;
+newRpos1y=next1y;
+newRpos2x=next2x;
+newRpos2y=next2y+1;
+newRpos3x=next3x-1;
+newRpos3y=next3y;
+newRpos4x=next4x-2;
+newRpos4y=next4y-1;
+curRotation=2;
+checkRotation;
+
+rotate21L::newRpos1x=next1x;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y;
+newRpos3x=next3x;
+newRpos3y=next3y-1;
+newRpos4x=next4x+1;
+newRpos4y=next4y-2;
+curRotation=1;
+checkRotation;
+
+rotate20L::newRpos1x=next1x-1;
+newRpos1y=next1y;
+newRpos2x=next2x;
+newRpos2y=next2y-1;
+newRpos3x=next3x+1;
+newRpos3y=next3y;
+newRpos4x=next4x+2;
+newRpos4y=next4y+1;
+curRotation=0;
+checkRotation;
+
+rotate2TR::((curRotation==0))[rotate21R][rotateTest20R];
+
+rotateTest20R::((curRotation==1))[rotate22R][rotateTest21R];
+
+rotateTest21R::((curRotation==2))[rotate23R][rotateTest22R];
+
+rotateTest22R::((curRotation==3))rotate20R;
+
+rotate21R::newRpos1x=next1x+1;
+newRpos1y=next1y;
+newRpos2x=next2x;
+newRpos2y=next2y+1;
+newRpos3x=next3x-1;
+newRpos3y=next3y;
+newRpos4x=next4x-2;
+newRpos4y=next4y-1;
+curRotation=1;
+checkRotation;
+
+rotate22R::newRpos1x=next1x;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y;
+newRpos3x=next3x;
+newRpos3y=next3y+1;
+newRpos4x=next4x-1;
+newRpos4y=next4y+2;
+curRotation=2;
+checkRotation;
+
+rotate23R::newRpos1x=next1x-1;
+newRpos1y=next1y;
+newRpos2x=next2x;
+newRpos2y=next2y-1;
+newRpos3x=next3x+1;
+newRpos3y=next3y;
+newRpos4x=next4x+2;
+newRpos4y=next4y+1;
+curRotation=3;
+checkRotation;
+
+rotate20R::newRpos1x=next1x;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y;
+newRpos3x=next3x;
+newRpos3y=next3y-1;
+newRpos4x=next4x+1;
+newRpos4y=next4y-2;
+curRotation=0;
+checkRotation;
+
+
+
+##block 3     [] rubble wrong WORKS
+#         [][][]                                "Mat = 5 "
+
+rotate3T::((rotate==1))[rotate3TL][rotate3TR];#Left
+
+rotate3TL::((curRotation==0))[rotate33L][rotateTest30];
+
+rotateTest30::((curRotation==1))[rotate30L][rotateTest31];
+
+rotateTest31::((curRotation==2))[rotate31L][rotateTest32];
+
+rotateTest32::((curRotation==3))rotate32L;
+
+
+rotate33L::newRpos1x=next1x-1;
+newRpos1y=next1y;
+newRpos2x=next2x+2;
+newRpos2y=next2y-1;
+newRpos3x=next3x+1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y+1;
+curRotation=3;
+checkRotation;
+
+rotate32L::newRpos1x=next1x;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y+2;
+newRpos3x=next3x;
+newRpos3y=next3y+1;
+newRpos4x=next4x-1;
+newRpos4y=next4y;
+curRotation=2;
+checkRotation;
+
+rotate31L::newRpos1x=next1x+1;
+newRpos1y=next1y;
+newRpos2x=next2x-2;
+newRpos2y=next2y+1;
+newRpos3x=next3x-1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y-1;
+curRotation=1;
+checkRotation;
+
+rotate30L::newRpos1x=next1x;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y-2;
+newRpos3x=next3x;
+newRpos3y=next3y-1;
+newRpos4x=next4x+1;
+newRpos4y=next4y;
+curRotation=0;
+checkRotation;
+
+
+
+rotate3TR::((curRotation==0))[rotate31R][rotateTest30R];
+
+rotateTest30R::((curRotation==1))[rotate32R][rotateTest31R];
+
+rotateTest31R::((curRotation==2))[rotate33R][rotateTest32R];
+
+rotateTest32R::((curRotation==3))rotate30R;
+
+rotate31R::newRpos1x=next1x;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y+2;
+newRpos3x=next3x;
+newRpos3y=next3y+1;
+newRpos4x=next4x-1;
+newRpos4y=next4y;
+curRotation=1;
+checkRotation;
+
+rotate32R::newRpos1x=next1x-1;
+newRpos1y=next1y;
+newRpos2x=next2x+2;
+newRpos2y=next2y-1;
+newRpos3x=next3x+1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y+1;
+curRotation=2;
+checkRotation;
+
+rotate33R::newRpos1x=next1x;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y-2;
+newRpos3x=next3x;
+newRpos3y=next3y-1;
+newRpos4x=next4x+1;
+newRpos4y=next4y;
+curRotation=3;
+checkRotation;
+
+rotate30R::newRpos1x=next1x+1;
+newRpos1y=next1y;
+newRpos2x=next2x-2;
+newRpos2y=next2y+1;
+newRpos3x=next3x-1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y-1;
+curRotation=0;
+checkRotation;
+
+
+
+
+
+
+
+#block 4 [][] slimy slug hole WORKS
+#        [][]                                   "Mat = 12"
+
+
+rotate4T::newRpos1x=next1;
+newRpos1y=next1y;
+newRpos2x=next2x;
+newRpos2y=next2y;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y;
+curRotation=0;
+checkRotation;
+
+
+
+#block 5   [][] power path in progress WORKS
+#        [][]                                   "Mat = 13"
+
+rotate5T::((curRotation==0))[rotate51L][rotate50L];
+
+rotate51L::newRpos1x=next1x-1;
+newRpos1y=next1y;
+newRpos2x=next2x-2;
+newRpos2y=next2y+1;
+newRpos3x=next3x+1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y+1;
+curRotation=1;
+checkRotation;
+
+rotate50L::newRpos1x=next1x+1;
+newRpos1y=next1y;
+newRpos2x=next2x+2;
+newRpos2y=next2y-1;
+newRpos3x=next3x-1;
+newRpos3y=next3y;
+newRpos4x=next4x;
+newRpos4y=next4y-1;
+curRotation=0;
+checkRotation;
+
+
+#block 6 [][] erosion WORKS
+#          [][]                                 "Mat = 9 "
+
+rotate6T::((curRotation==0))[rotate61L][rotate60L];
+
+rotate61L::newRpos1x=next1x+1;
+newRpos1y=next1y-1;
+newRpos2x=next2x;
+newRpos2y=next2y;
+newRpos3x=next3x+1;
+newRpos3y=next3y+1;
+newRpos4x=next4x;
+newRpos4y=next4y+2;
+curRotation=1;
+checkRotation;
+
+rotate60L::newRpos1x=next1x-1;
+newRpos1y=next1y+1;
+newRpos2x=next2x;
+newRpos2y=next2y;
+newRpos3x=next3x-1;
+newRpos3y=next3y-1;
+newRpos4x=next4x;
+newRpos4y=next4y-2;
+curRotation=0;
+checkRotation;
+
+
+
+#block 7   [] power path buildings WORKS
+#        [][][]                                 "Mat = 14"
+
+
+rotate7T::((rotate==1))[rotate7TL][rotate7TR];#Left
+
+rotate7TL::((curRotation==0))[rotate73L][rotateTest70];
+
+rotateTest70::((curRotation==1))[rotate70L][rotateTest71];
+
+rotateTest71::((curRotation==2))[rotate71L][rotateTest72];
+
+rotateTest72::((curRotation==3))rotate72L;
+
+
+rotate73L::newRpos1x=next1x-1;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y-1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x-1;
+newRpos4y=next4y+1;
+curRotation=3;
+checkRotation;
+
+rotate72L::newRpos1x=next1x+1;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y+1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x-1;
+newRpos4y=next4y-1;
+curRotation=2;
+checkRotation;
+
+rotate71L::newRpos1x=next1x+1;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y+1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x+1;
+newRpos4y=next4y-1;
+curRotation=1;
+checkRotation;
+
+rotate70L::newRpos1x=next1x-1;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y-1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x+1;
+newRpos4y=next4y+1;
+curRotation=0;
+checkRotation;
+
+
+rotate7TR::((curRotation==0))[rotate71R][rotateTest70R];
+
+rotateTest70R::((curRotation==1))[rotate72R][rotateTest71R];
+
+rotateTest71R::((curRotation==2))[rotate73R][rotateTest72R];
+
+rotateTest72R::((curRotation==3))rotate70R;
+
+rotate71R::newRpos1x=next1x+1;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y+1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x-1;
+newRpos4y=next4y-1;
+curRotation=1;
+checkRotation;
+
+rotate72R::newRpos1x=next1x-1;
+newRpos1y=next1y-1;
+newRpos2x=next2x+1;
+newRpos2y=next2y-1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x-1;
+newRpos4y=next4y+1;
+curRotation=2;
+checkRotation;
+
+rotate73R::newRpos1x=next1x-1;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y-1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x+1;
+newRpos4y=next4y+1;
+curRotation=3;
+checkRotation;
+
+rotate70R::newRpos1x=next1x+1;
+newRpos1y=next1y+1;
+newRpos2x=next2x-1;
+newRpos2y=next2y+1;
+newRpos3x=next3x;
+newRpos3y=next3y;
+newRpos4x=next4x+1;
+newRpos4y=next4y-1;
+curRotation=0;
+checkRotation;
+
+
+#string UpBlock="Update Block"
+
+#check if the rotaion is legit
+
+checkRotation::checkXPos1=get(newRpos1x)(newRpos1y);
+checkXPos2=get(newRpos2x)(newRpos2y);
+checkXPos3=get(newRpos3x)(newRpos3y);
+checkXPos4=get(newRpos4x)(newRpos4y);
+hit=0;
+((checkXPos1!=1))hit=1;
+((checkXPos2!=1))hit=1;
+((checkXPos3!=1))hit=1;
+((checkXPos4!=1))hit=1;
+((hit==1))[setOldPos][setNewPos];
+
+#UpBlock=" "+checkXPos1;
+#UpBlock=UpBlock+" ";
+#UpBlock=UpBlock+checkXPos2;
+#UpBlock=UpBlock+" ";
+#UpBlock=UpBlock+checkXPos3;
+#UpBlock=UpBlock+" ";
+#UpBlock=UpBlock+checkXPos4;
+#msg:UpBlock;
+
+setOldPos::curRotation=lastRotation;
+finishRotating;
+
+setNewPos::pos1x=newRpos1x;
+pos1y=newRpos1y;
+pos2x=newRpos2x;
+pos2y=newRpos2y;
+pos3x=newRpos3x;
+pos3y=newRpos3y;
+pos4x=newRpos4x;
+pos4y=newRpos4y;
+lastRotation=curRotation;
+finishRotating;
+
+finishRotating::rotate=0;
+moveCount=0;
+hit=0;
+playerMove=0;
+pmx=0;
+checkXPos1=0;
+checkXPos2=0;
+checkXPos3=0;
+checkXPos4=0;
+checkNext1=0;
+checkNext2=0;
+checkNext3=0;
+checkNext4=0;
+place:pos1x,pos1y,currentBlockMat;
+place:pos2x,pos2y,currentBlockMat;
+place:pos3x,pos3y,currentBlockMat;
+place:pos4x,pos4y,currentBlockMat;
+
+
+
+
+
+
+
+
+
+
+
+#Finnaly placng the new block
+
+PlaceBlock::pos1x=next1x;
+pos2x=next2x;
+pos3x=next3x;
+pos4x=next4x;
+((landed==0))pos1y=next1y;
+((landed==0))pos2y=next2y;
+((landed==0))pos3y=next3y;
+((landed==0))pos4y=next4y;
+place:pos1x,pos1y,currentBlockMat;
+place:pos2x,pos2y,currentBlockMat;
+place:pos3x,pos3y,currentBlockMat;
+place:pos4x,pos4y,currentBlockMat;
+((landed==1))userHasBlock=2;
+((landed==1))landed=0;
+forceDown=0;
+ditItMove;
+
+int moveVal=0
+
+ditItMove::((startX==pos1x))moveVal+=1;
+((startY==pos1y))moveVal+=1;
+((moveVal>1))gameover=1;
+moveVal=0;
+
+int gotB1=1
+int gotB2=1
+int gotB3=1
+int gotB4=1
+
+CheckY::gotB1=get(next1x)(next1y);
+gotB2=get(next2x)(next2y);
+gotB3=get(next3x)(next3y);
+gotB4=get(next4x)(next4y);
+landed=0;
+((gotB1!=1))landed=1;
+((gotB2!=1))landed=1;
+((gotB3!=1))landed=1;
+((gotB4!=1))landed=1;
+PlaceBlock;
+
+#PlaceBlock;
+
+
+
+
+
+
+# checking and clearing rows
+
+int R0=0
+int R1=0
+int R2=0
+int R3=0
+int R4=0
+int R5=0
+int R6=0
+int R7=0
+int R8=0
+int R9=0
+
+int RowY=10
+
+int RowCount=0
+
+int rowsCleard=0
+
+checkRows::RowY=10;
+RowCount=0;
+CheckRow;
+
+CheckRow::((RowCount>19))[EndClearing][checkThisRow];
+
+int toPoint=0
+int multy=0
+
+#give points
+EndClearing::toPoint=0;
+((rowsCleard==1))toPoint=10;
+((rowsCleard==2))toPoint=40;
+((rowsCleard==3))toPoint=90;
+((rowsCleard==4))toPoint=200;
+((Level==1))multy=1;
+((Level==2))multy=2;
+((Level==3))multy=2;
+((Level==4))multy=3;
+((Level==5))multy=3;
+((Level==6))multy=4;
+((Level==7))multy=4;
+((Level>7))multy=1;
+toPoint*=multy;
+Points+=toPoint;
+globalCleardLines+=rowsCleard;
+updateLevel;
+wait:0.5;
+updateScore;
+wait:0.1;
+userHasBlock=0;
+rowsCleard=0;
+UPDATE2;
+
+int rowValue=0
+
+checkThisRow::updateRow=RowCount;
+rowValue=0;
+R0=get(3)(RowY);
+rowValue+=R0;
+R1=get(4)(RowY);
+rowValue+=R1;
+R2=get(5)(RowY);
+rowValue+=R2;
+R3=get(6)(RowY);
+rowValue+=R3;
+R4=get(7)(RowY);
+rowValue+=R4;
+R5=get(8)(RowY);
+rowValue+=R5;
+R6=get(9)(RowY);
+rowValue+=R6;
+R7=get(10)(RowY);
+rowValue+=R7;
+R8=get(11)(RowY);
+rowValue+=R8;
+R9=get(12)(RowY);
+rowValue+=R9;
+((rowValue<11))[EndClearing][testR0];
+
+
+testR0::((R0!=1))[testR1][nextRow];
+
+testR1::((R1!=1))[testR2][nextRow];
+
+testR2::((R2!=1))[testR3][nextRow];
+
+testR3::((R3!=1))[testR4][nextRow];
+
+testR4::((R4!=1))[testR5][nextRow];
+
+testR5::((R5!=1))[testR6][nextRow];
+
+testR6::((R6!=1))[testR7][nextRow];
+
+testR7::((R7!=1))[testR8][nextRow];
+
+testR8::((R8!=1))[testR9][nextRow];
+
+testR9::((R9!=1))[UpdateRows][nextRow];
+
+# tests the next row
+nextRow::RowY+=1;
+RowCount+=1;
+CheckRow;
+
+int tileIDofGet=0
+int updateRow=0
+
+# clears the row
+UpdateRows::((updateRow<19))[doUpdateRow][restartCheck];
+
+restartCheck::rowsCleard+=1;
+checkRows;
+
+int thisRow=0
+
+doUpdateRow::updateRow+=1;
+thisRow=RowY;
+RowY+=1;
+tileIDofGet=get(3)(RowY);
+place:3,thisRow,tileIDofGet;
+tileIDofGet=get(4)(RowY);
+place:4,thisRow,tileIDofGet;
+tileIDofGet=get(5)(RowY);
+place:5,thisRow,tileIDofGet;
+tileIDofGet=get(6)(RowY);
+place:6,thisRow,tileIDofGet;
+tileIDofGet=get(7)(RowY);
+place:7,thisRow,tileIDofGet;
+tileIDofGet=get(8)(RowY);
+place:8,thisRow,tileIDofGet;
+tileIDofGet=get(9)(RowY);
+place:9,thisRow,tileIDofGet;
+tileIDofGet=get(10)(RowY);
+place:10,thisRow,tileIDofGet;
+tileIDofGet=get(11)(RowY);
+place:11,thisRow,tileIDofGet;
+tileIDofGet=get(12)(RowY);
+place:12,thisRow,tileIDofGet;
+UpdateRows;
+
+
+
+
+
+
+
+
+
+
+updateLevel::((globalCleardLines>9))Level=1;
+((globalCleardLines>19))Level=2;
+((globalCleardLines>29))Level=3;
+((globalCleardLines>39))Level=4;
+((globalCleardLines>49))Level=5;
+((globalCleardLines>59))Level=6;
+((globalCleardLines>69))Level=7;
+((globalCleardLines>79))Level=8;
+((globalCleardLines>89))Level=9;
+((globalCleardLines>99))Level=10;
+((globalCleardLines>109))Level=11;
+((Level==1))curTick=0.5;
+((Level==2))curTick=0.45;
+((Level==3))curTick=0.4;
+((Level==4))curTick=0.35;
+((Level==5))curTick=0.3;
+((Level==6))curTick=0.25;
+((Level==7))curTick=0.2;
+((Level==8))curTick=0.15;
+((Level==9))curTick=0.1;
+((Level==10))curTick=0.05;
+((Level==11))curTick=0.0;
+updateLevelDisplay;
+
+
+
+
+
+int zehn=0
+int hundert=0
+int tausend=0
+int zehntausend=0
+
+int chipPoints=0
+
+#Update Score
+updateScore::((Points>99999))gameEnd;
+chipPoints=Points;
+zehn=0;
+hundert=0;
+tausend=0;
+zehntausend=0;
+testZehnTausend;
+
+testZehnTausend::((chipPoints>=10000))[minusZehnTausen][testTausend];
+
+minusZehnTausen::chipPoints-=10000;
+zehntausend+=1;
+testZehnTausend;
+
+testTausend::((chipPoints>=1000))[minusTausend][testHundert];
+
+minusTausend::chipPoints-=1000;
+tausend+=1;
+testTausend;
+
+testHundert::((chipPoints>=100))[minusHundert][testZehn];
+
+minusHundert::chipPoints-=100;
+hundert+=1;
+testHundert;
+
+testZehn::((chipPoints>=10))[minusZehn][updatePointDisplay];
+
+minusZehn::chipPoints-=10;
+zehn+=1;
+testZehn;
+
+updatePointDisplay::numberX=zehntausend;
+numdisplayX=2;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=tausend;
+numdisplayX=8;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=hundert;
+numdisplayX=14;
+numdisplayY=7;
+updateNumberX;
+wait:0.1;
+numberX=zehn;
+numdisplayY=7;
+numdisplayX=20;
+updateNumberX;
+
+
+
+
+
+string youWin="You Won Tetris"
+
+gameEnd::gameover=1;
+wait:0.5;
+msg:youWin;
+
+
+
+
+GameOver::wait:1.0;
+sound:Tetris\GameOver;
+place:3,29,14;
+wait:0.05;
+place:4,29,14;
+wait:0.05;
+place:5,29,14;
+wait:0.05;
+place:6,29,14;
+wait:0.05;
+place:7,29,14;
+wait:0.05;
+place:8,29,14;
+wait:0.05;
+place:9,29,14;
+wait:0.05;
+place:10,29,14;
+wait:0.05;
+place:11,29,14;
+wait:0.05;
+place:12,29,14;
+wait:0.05;
+place:12,28,14;
+wait:0.05;
+place:11,28,14;
+wait:0.05;
+place:10,28,14;
+wait:0.05;
+place:9,28,14;
+wait:0.05;
+place:8,28,14;
+wait:0.05;
+place:7,28,14;
+wait:0.05;
+place:6,28,14;
+wait:0.05;
+place:5,28,14;
+wait:0.05;
+place:4,28,14;
+wait:0.05;
+place:3,28,14;
+wait:0.05;
+place:3,27,14;
+wait:0.05;
+place:4,27,14;
+wait:0.05;
+place:5,27,14;
+wait:0.05;
+place:6,27,14;
+wait:0.05;
+place:7,27,14;
+wait:0.05;
+place:8,27,14;
+wait:0.05;
+place:9,27,14;
+wait:0.05;
+place:10,27,14;
+wait:0.05;
+place:11,27,14;
+wait:0.05;
+place:12,27,14;
+wait:0.05;
+place:12,26,14;
+wait:0.05;
+place:11,26,14;
+wait:0.05;
+place:10,26,14;
+wait:0.05;
+place:9,26,14;
+wait:0.05;
+place:8,26,14;
+wait:0.05;
+place:7,26,14;
+wait:0.05;
+place:6,26,14;
+wait:0.05;
+place:5,26,14;
+wait:0.05;
+place:4,26,14;
+wait:0.05;
+place:3,26,14;
+wait:0.05;
+place:3,25,14;
+wait:0.05;
+place:4,25,14;
+wait:0.05;
+place:5,25,14;
+wait:0.05;
+place:6,25,14;
+wait:0.05;
+place:7,25,14;
+wait:0.05;
+place:8,25,14;
+wait:0.05;
+place:9,25,14;
+wait:0.05;
+place:10,25,14;
+wait:0.05;
+place:11,25,14;
+wait:0.05;
+place:12,25,14;
+wait:0.05;
+place:12,24,14;
+wait:0.05;
+place:11,24,14;
+wait:0.05;
+place:10,24,14;
+wait:0.05;
+place:9,24,14;
+wait:0.05;
+place:8,24,14;
+wait:0.05;
+place:7,24,14;
+wait:0.05;
+place:6,24,14;
+wait:0.05;
+place:5,24,14;
+wait:0.05;
+place:4,24,14;
+wait:0.05;
+place:3,24,14;
+wait:0.05;
+place:3,23,14;
+wait:0.05;
+place:4,23,14;
+wait:0.05;
+place:5,23,14;
+wait:0.05;
+place:6,23,14;
+wait:0.05;
+place:7,23,14;
+wait:0.05;
+place:8,23,14;
+wait:0.05;
+place:9,23,14;
+wait:0.05;
+place:10,23,14;
+wait:0.05;
+place:11,23,14;
+wait:0.05;
+place:12,23,14;
+wait:0.05;
+place:12,22,14;
+wait:0.05;
+place:11,22,14;
+wait:0.05;
+place:10,22,14;
+wait:0.05;
+place:9,22,14;
+wait:0.05;
+place:8,22,14;
+wait:0.05;
+place:7,22,14;
+wait:0.05;
+place:6,22,14;
+wait:0.05;
+place:5,22,14;
+wait:0.05;
+place:4,22,14;
+wait:0.05;
+place:3,22,14;
+wait:0.05;
+place:3,21,14;
+wait:0.05;
+place:4,21,14;
+wait:0.05;
+place:5,21,14;
+wait:0.05;
+place:6,21,14;
+wait:0.05;
+place:7,21,14;
+wait:0.05;
+place:8,21,14;
+wait:0.05;
+place:9,21,14;
+wait:0.05;
+place:10,21,14;
+wait:0.05;
+place:11,21,14;
+wait:0.05;
+place:12,21,14;
+wait:0.05;
+place:12,20,14;
+wait:0.05;
+place:11,20,14;
+wait:0.05;
+place:10,20,14;
+wait:0.05;
+place:9,20,14;
+wait:0.05;
+place:8,20,14;
+wait:0.05;
+place:7,20,14;
+wait:0.05;
+place:6,20,14;
+wait:0.05;
+place:5,20,14;
+wait:0.05;
+place:4,20,14;
+wait:0.05;
+place:3,20,14;
+wait:0.05;
+place:3,19,14;
+wait:0.05;
+place:4,19,14;
+wait:0.05;
+place:5,19,14;
+wait:0.05;
+place:6,19,14;
+wait:0.05;
+place:7,19,14;
+wait:0.05;
+place:8,19,14;
+wait:0.05;
+place:9,19,14;
+wait:0.05;
+place:10,19,14;
+wait:0.05;
+place:11,19,14;
+wait:0.05;
+place:12,19,14;
+wait:0.05;
+place:12,18,14;
+wait:0.05;
+place:11,18,14;
+wait:0.05;
+place:10,18,14;
+wait:0.05;
+place:9,18,14;
+wait:0.05;
+place:8,18,14;
+wait:0.05;
+place:7,18,14;
+wait:0.05;
+place:6,18,14;
+wait:0.05;
+place:5,18,14;
+wait:0.05;
+place:4,18,14;
+wait:0.05;
+place:3,18,14;
+wait:0.05;
+place:3,17,14;
+wait:0.05;
+place:4,17,14;
+wait:0.05;
+place:5,17,14;
+wait:0.05;
+place:6,17,14;
+wait:0.05;
+place:7,17,14;
+wait:0.05;
+place:8,17,14;
+wait:0.05;
+place:9,17,14;
+wait:0.05;
+place:10,17,14;
+wait:0.05;
+place:11,17,14;
+wait:0.05;
+place:12,17,14;
+wait:0.05;
+place:12,16,14;
+wait:0.05;
+place:11,16,14;
+wait:0.05;
+place:10,16,14;
+wait:0.05;
+place:9,16,14;
+wait:0.05;
+place:8,16,14;
+wait:0.05;
+place:7,16,14;
+wait:0.05;
+place:6,16,14;
+wait:0.05;
+place:5,16,14;
+wait:0.05;
+place:4,16,14;
+wait:0.05;
+place:3,16,14;
+wait:0.05;
+place:3,15,14;
+wait:0.05;
+place:4,15,14;
+wait:0.05;
+place:5,15,14;
+wait:0.05;
+place:6,15,14;
+wait:0.05;
+place:7,15,14;
+wait:0.05;
+place:8,15,14;
+wait:0.05;
+place:9,15,14;
+wait:0.05;
+place:10,15,14;
+wait:0.05;
+place:11,15,14;
+wait:0.05;
+place:12,15,14;
+wait:0.05;
+place:12,14,14;
+wait:0.05;
+place:11,14,14;
+wait:0.05;
+place:10,14,14;
+wait:0.05;
+place:9,14,14;
+wait:0.05;
+place:8,14,14;
+wait:0.05;
+place:7,14,14;
+wait:0.05;
+place:6,14,14;
+wait:0.05;
+place:5,14,14;
+wait:0.05;
+place:4,14,14;
+wait:0.05;
+place:3,14,14;
+wait:0.05;
+place:3,13,14;
+wait:0.05;
+place:4,13,14;
+wait:0.05;
+place:5,13,14;
+wait:0.05;
+place:6,13,14;
+wait:0.05;
+place:7,13,14;
+wait:0.05;
+place:8,13,14;
+wait:0.05;
+place:9,13,14;
+wait:0.05;
+place:10,13,14;
+wait:0.05;
+place:11,13,14;
+wait:0.05;
+place:12,13,14;
+wait:0.05;
+place:12,12,14;
+wait:0.05;
+place:11,12,14;
+wait:0.05;
+place:10,12,14;
+wait:0.05;
+place:9,12,14;
+wait:0.05;
+place:8,12,14;
+wait:0.05;
+place:7,12,14;
+wait:0.05;
+place:6,12,14;
+wait:0.05;
+place:5,12,14;
+wait:0.05;
+place:4,12,14;
+wait:0.05;
+place:3,12,14;
+wait:0.05;
+place:3,11,14;
+wait:0.05;
+place:4,11,14;
+wait:0.05;
+place:5,11,14;
+wait:0.05;
+place:6,11,14;
+wait:0.05;
+place:7,11,14;
+wait:0.05;
+place:8,11,14;
+wait:0.05;
+place:9,11,14;
+wait:0.05;
+place:10,11,14;
+wait:0.05;
+place:11,11,14;
+wait:0.05;
+place:12,11,14;
+wait:0.05;
+place:12,10,14;
+wait:0.05;
+place:11,10,14;
+wait:0.05;
+place:10,10,14;
+wait:0.05;
+place:9,10,14;
+wait:0.05;
+place:8,10,14;
+wait:0.05;
+place:7,10,14;
+wait:0.05;
+place:6,10,14;
+wait:0.05;
+place:5,10,14;
+wait:0.05;
+place:4,10,14;
+wait:0.05;
+place:3,10,14;
+wait:0.05;
+
+}
+creatures{
+}
