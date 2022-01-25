@@ -840,5 +840,51 @@ public class FileManager {
 	
 	
 	
+	// Log File
+	private BufferedWriter LogFileWriter;
+	
+	public void LoadLog() {
+		String curDir = new File("").getAbsolutePath();
+		
+		File LogFile = new File(curDir + "/" + java.time.LocalDate.now() + "Server.log");
+		
+		try {
+			
+			LogFileWriter = new BufferedWriter(new FileWriter(LogFile));
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public void CloseLog() {
+		
+		try {
+			
+			LogFileWriter.flush();
+			LogFileWriter.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	public void Log(String toLog) {
+		
+		try {
+			
+			LogFileWriter.append(toLog);
+			LogFileWriter.newLine();
+			LogFileWriter.flush();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
 	
 }

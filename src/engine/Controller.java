@@ -18,18 +18,22 @@ private Scanner in = new Scanner(System.in);
 
 private boolean running = false;
 
+private entryPoint EP;
 	
 	public Controller() {
 		
 		fiMa = new FileManager();
 		
+		fiMa.LoadLog();
+		
 		fiMa.loadTextures();
 		
-		entryPoint EP = new entryPoint(this);
+		EP = new entryPoint(this);
 		
 		EP.start();
 		
 		running = true;
+		
 	}
 	
 	
@@ -47,6 +51,7 @@ private boolean running = false;
 				System.out.println("-SetVersion : to set acceptedClient Version");
 				System.out.println("-GetVersion :  to see acceptedClient Version");
 				System.out.println("-Update : (Updates Database of Maps Textures and Client");
+				System.out.println("-Status : Displays the Current server Status");
 			break;
 			
 			case("-SetVersion"):
@@ -61,6 +66,20 @@ private boolean running = false;
 			case("-Update"):
 				System.out.println("Updating textures");
 				fiMa.loadTextures();
+			break;
+			
+			case("-Status"):
+				System.out.println("Server Thread Alive ? : " + EP.isAlive());
+				System.out.println("Server closed ? : " + EP.isServerClosed());
+			break;
+			
+			case("-Close"):
+				
+				this.running = false;
+				EP.closeServer();
+				fiMa.CloseLog();
+				System.exit(0);
+				
 			break;
 			
 			}
@@ -78,5 +97,6 @@ private boolean running = false;
 	
 	public void Log(String toLog) {
 		System.out.println("[" + java.time.LocalDate.now() + " / " + new String("" + java.time.LocalTime.now()).substring(0,8) + "] : " + toLog);
+		fiMa.Log("[" + java.time.LocalDate.now() + " / " + new String("" + java.time.LocalTime.now()).substring(0,8) + "] : " + toLog);
 	}
 }

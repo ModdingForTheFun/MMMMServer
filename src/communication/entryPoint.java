@@ -32,6 +32,32 @@ private int port = 8888;
 	}
 	
 	
+	
+	public boolean isServerClosed() {
+		return Server.isClosed();
+	}
+	
+	public boolean isClientNull() {
+		if(Client == null) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public void closeServer() {
+		isRunning=false;
+		
+		try {
+			
+			Server.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
 	public void run() {
 		
 		try {
@@ -58,15 +84,25 @@ private int port = 8888;
 				
 				Client = Server.accept();
 				
+				con.Log("Server did accept");
+				
 				DataOutputStream  tempOut = new DataOutputStream(Client.getOutputStream());
+				
+				con.Log("Createt output");
 				
 				tempOut.flush();
 				
+				con.Log("Flushed output");
+				
 				DataInputStream  tempIn = new DataInputStream(Client.getInputStream());
+				
+				con.Log("Createt input");
 				
 				//test if it is a client
 				
 				String ID = tempIn.readUTF();
+				
+				con.Log("Read ID");
 				
 				if(ID.equals("MMMM_Client_03hg983tz3pgn3uzﬂ3toj09")) {
 					con.Log("A Client connected");
@@ -78,6 +114,7 @@ private int port = 8888;
 					con.Log("Something else Tryt to connect");
 					con.Log("Sended , As String : " + ID);
 					Client.close();
+					Client = null;
 				}
 				
 			} catch (IOException e) {
