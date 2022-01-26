@@ -84,19 +84,19 @@ private int port = 8888;
 				
 				Client = Server.accept();
 				
-				con.Log("Server did accept");
+//				con.Log("Server did accept");
 				
 				DataOutputStream  tempOut = new DataOutputStream(Client.getOutputStream());
 				
-				con.Log("Createt output");
+//				con.Log("Createt output");
 				
 				tempOut.flush();
 				
-				con.Log("Flushed output");
+//				con.Log("Flushed output");
 				
 				DataInputStream  tempIn = new DataInputStream(Client.getInputStream());
 				
-				con.Log("Createt input");
+//				con.Log("Createt input");
 				
 				//test if it is a client
 				

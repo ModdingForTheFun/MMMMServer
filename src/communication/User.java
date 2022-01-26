@@ -71,120 +71,126 @@ private LocalDateTime deathTime;
 		
 	}
 	
+	private boolean MMMMClient() {
+		
+		//verify User
+		
+				String ID;
+				
+				try {
+					
+					ID = dataIn.readUTF();
+					
+					con.Log("Read ID");
+					
+					if(ID.equals("MMMM_Client_03hg983tz3pgn3uzﬂ3toj09")) {
+						con.Log("A Client connected");
+						return true;
+					}else {
+						con.Log("Something else Tryt to connect");
+						con.Log("Sended , As String : " + ID);
+						client.close();
+						client = null;
+						return false;
+					}
+					
+				} catch (IOException e2) {
+					con.Log("Something else Tryt to connect");
+					//e2.printStackTrace();
+				}
+		
+				
+				return false;
+	}
 	
 	public void run() { //Zeitstopper rein packen von ca 1 stunde
 		
 		
-		//verify User
-		
-		String ID;
-		
-		try {
+		if(MMMMClient()) {
 			
-			ID = dataIn.readUTF();
+
+			//create shutdown Timer
+			LocalDateTime currentTime = LocalDateTime.now();
+			deathTime = currentTime.plusHours(1);
 			
-			con.Log("Read ID");
+			//create PacketManager
+					PaMa = new PacketManager(con,this);
 			
-			if(ID.equals("MMMM_Client_03hg983tz3pgn3uzﬂ3toj09")) {
-				con.Log("A Client connected");
-			}else {
-				con.Log("Something else Tryt to connect");
-				con.Log("Sended , As String : " + ID);
-				client.close();
-				client = null;
-				return;
+					
+			//create crypto Key
+//			crMa.createKey();
+			//TODO reactivaet when needed
+			
+//			System.out.println("send p key of server");
+//			write("Key");
+			
+			
+//			System.out.println("read p key of client");
+//			read();
+			
+			// Username
+			
+			//set username
+			try {
+					
+				byte[] UserName;
+				
+				UserName = new byte[dataIn.readInt()];
+				dataIn.readFully(UserName);
+				
+//				UserName = crMa.decryptPacket(UserName);
+				
+				userName = new String(UserName);
+						
+				System.out.println("decoded name : " + userName);
+				
+				byte[] UserKey = new byte[dataIn.readInt()];
+				dataIn.readFully(UserKey);
+				
+				userKey = new String(UserKey);
+				
+				String answer = con.fiMa.CheckUser(userName, userKey);
+				
+				dataOut.writeInt(answer.length());
+				dataOut.write(answer.getBytes());
+				dataOut.flush();
+				
+				if(!answer.equals("LogIn")) {
+					
+					return;
+					
+				}
+				
+			} catch (IOException e1) {
+				e1.printStackTrace();
 			}
 			
-		} catch (IOException e2) {
-			e2.printStackTrace();
-		}
-		
-		
-		
-		
-		
-		
-		
-		//create shutdown Timer
-		LocalDateTime currentTime = LocalDateTime.now();
-		deathTime = currentTime.plusHours(1);
-		
-		//create PacketManager
-				PaMa = new PacketManager(con,this);
-		
+//			System.out.println("write Accepted Ver to Client");
+			write("Version");
+			
+			connected = true;
 				
-		//create crypto Key
-//		crMa.createKey();
-		//TODO reactivaet when needed
-		
-//		System.out.println("send p key of server");
-//		write("Key");
-		
-		
-//		System.out.println("read p key of client");
-//		read();
-		
-		// Username
-		
-		//set username
-		try {
+			con.Log("User " + userName + " Connected succesfully");
+			
+			while(connected) {
 				
-			byte[] UserName;
-			
-			UserName = new byte[dataIn.readInt()];
-			dataIn.readFully(UserName);
-			
-//			UserName = crMa.decryptPacket(UserName);
-			
-			userName = new String(UserName);
+				
+				read();
+				
+				
+				currentTime = LocalDateTime.now();
+				
+				if(currentTime.isAfter(deathTime)) {
+					try {
+						
+						dataIn.close();
+						dataOut.close();
+						client.close();
 					
-			System.out.println("decoded name : " + userName);
-			
-			byte[] UserKey = new byte[dataIn.readInt()];
-			dataIn.readFully(UserKey);
-			
-			userKey = new String(UserKey);
-			
-			String answer = con.fiMa.CheckUser(userName, userKey);
-			
-			dataOut.writeInt(answer.length());
-			dataOut.write(answer.getBytes());
-			dataOut.flush();
-			
-			if(!answer.equals("LogIn")) {
-				
-				return;
-				
-			}
-			
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		
-//		System.out.println("write Accepted Ver to Client");
-		write("Version");
-		
-		connected = true;
-			
-		con.Log("User " + userName + " Connected succesfully");
-		
-		while(connected) {
-			
-			
-			read();
-			
-			
-			currentTime = LocalDateTime.now();
-			
-			if(currentTime.isAfter(deathTime)) {
-				try {
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
 					
-					dataIn.close();
-					dataOut.close();
-					client.close();
-				
-				} catch (IOException e) {
-					e.printStackTrace();
 				}
 				
 			}
@@ -668,7 +674,15 @@ private LocalDateTime deathTime;
 				if(FILE.exists()) {
 //					System.out.println("	Yes");
 					
-					// is it your file ?
+					// is it your file ? TODO what about textures
+					
+					String FP = FILE.getAbsolutePath();
+					
+					if(FP.contains("/Textures/")) {
+						
+						dataOut.writeInt(0);
+						
+					}else 
 					if(con.fiMa.checkMapUser(FileName,userName, userKey)) {
 						
 						newFile = true;
