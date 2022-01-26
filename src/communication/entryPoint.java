@@ -100,22 +100,9 @@ private int port = 8888;
 				
 				//test if it is a client
 				
-				String ID = tempIn.readUTF();
+				User newUser = new User(con,Client,tempIn,tempOut);
 				
-				con.Log("Read ID");
-				
-				if(ID.equals("MMMM_Client_03hg983tz3pgn3uzﬂ3toj09")) {
-					con.Log("A Client connected");
-					
-					User newUser = new User(con,Client,tempIn,tempOut);
-					
-					newUser.start();
-				}else {
-					con.Log("Something else Tryt to connect");
-					con.Log("Sended , As String : " + ID);
-					Client.close();
-					Client = null;
-				}
+				newUser.start();
 				
 			} catch (IOException e) {
 				con.Log("Problem accepting a Client");
