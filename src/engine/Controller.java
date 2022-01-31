@@ -10,7 +10,7 @@ public class Controller extends Thread{
 public FileManager fiMa;
 	
 	
-public String AcceptedClientVersion = "0.7_0";
+public String AcceptedClientVersion = "0.7_1";
 	
 private Scanner in = new Scanner(System.in);
 
@@ -22,7 +22,7 @@ private entryPoint EP;
 	
 	public Controller() {
 		
-		fiMa = new FileManager();
+		fiMa = new FileManager(this);
 		
 		fiMa.LoadLog();
 		

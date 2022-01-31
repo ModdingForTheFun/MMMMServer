@@ -111,7 +111,7 @@ private int port = 8888;
 			
 		}
 		
-		System.out.println("Trying to close the server");
+		con.Log("Trying to close the server");
 		
 		try {
 			
@@ -121,7 +121,7 @@ private int port = 8888;
 			con.Log("Error trying to close Server");
 		}
 		
-		System.out.println("Closed the server");
+		con.Log("Closed the server");
 		
 	}
 	

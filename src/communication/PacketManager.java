@@ -194,7 +194,7 @@ private byte[] data = new byte[4096];
 		switch(PID) {
 		
 		case("0x0F"): //MapList
-			System.out.println(" - MapList ");
+			con.Log(" - MapList ");
 			//get map data
 			String[][] LevelData = con.fiMa.getlevelData();
 			//Send Level Data
@@ -202,12 +202,12 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x10"): //MapUpload from Client
-			System.out.println(" - MapUpload ");
+			con.Log(" - MapUpload ");
 			user.readFile();
 		break;
 		
 		case("0x11"): //MapDownload
-			System.out.println(" - MapDownload ");
+			con.Log(" - MapDownload ");
 			//get Levelname
 			String Levelname = getString();
 			//get Level As File
@@ -217,12 +217,12 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x12"): //AssetsUpload from Client
-			System.out.println(" - Assets Upload ");
+			con.Log(" - Assets Upload ");
 			user.readFile();
 		break;
 		
 		case("0x13"): //MapInfo request from Client
-			System.out.println(" - MapInfo ");
+			con.Log(" - MapInfo ");
 			
 			String LevelInfoName = getString();
 		
@@ -232,7 +232,7 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x14"): //TextureList
-			System.out.println(" - Texture List ");
+			con.Log(" - Texture List ");
 			con.fiMa.loadTextures();
 			user.writeFile(con.fiMa.getTextures("Arm"),"TexturesArm");
 			user.writeFile(con.fiMa.getTextures("Belt"),"TexturesBelt");
@@ -243,28 +243,28 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x15"): //TextureUpload
-			System.out.println(" - Texture Upload ");
+			con.Log(" - Texture Upload ");
 			user.readFile();
 		break;
 		
 		case("0x16"): //TextureDownload
-			System.out.println(" - Texture Download ");
+			con.Log(" - Texture Download ");
 			//wont be used
 		break;
 		
 		//-----------------------------------
 		
 		case("0xFF"): //Key Packet
-			System.out.println(" - Key Packet ");
+			con.Log(" - Key Packet ");
 			user.setPublicKey(getKey());
 		break;
 		
 		case("0x0B"): //Version Packet
-			System.out.println(" - Version Packet ");
+			con.Log(" - Version Packet ");
 		break;
 		
 		case("0x0C"): //UpdateDownload Packet
-			System.out.println(" - Request UpdateDownload Packet ");
+			con.Log(" - Request UpdateDownload Packet ");
 			//send Current Client
 			
 			String type = getString();
@@ -277,7 +277,7 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x0A"): //Disconnect Packet
-			System.out.println(" - Disconect Packet ");
+			con.Log(" - Disconect Packet ");
 			user.closeAll();
 		break;
 		
@@ -294,7 +294,7 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x20"): // upvote a map
-			System.out.println(" - Up Voteing Packet");
+			con.Log(" - Up Voteing Packet");
 			
 			String levelName = getString();
 			
@@ -303,7 +303,7 @@ private byte[] data = new byte[4096];
 		break;
 		
 		case("0x21"): // upvote a map
-			System.out.println(" - Down Voteing Packet");
+			con.Log(" - Down Voteing Packet");
 			
 			String levelName1 = getString();
 			
@@ -332,7 +332,7 @@ private byte[] data = new byte[4096];
 	//returns the Type of the Packet
 	private String getPacketType() {
 		
-		//System.out.println("Length:" + data.length);
+		//con.Log("Length:" + data.length);
 		
 		byte[] HexId = new byte[4];
 		

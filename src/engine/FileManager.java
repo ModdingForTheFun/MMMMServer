@@ -17,7 +17,11 @@ import java.util.zip.*;
 public class FileManager {
 
 
+private Controller con;
 
+	public FileManager(Controller Con) {
+		con = Con;
+	}
 	
 	
 	
@@ -112,7 +116,7 @@ public class FileManager {
 			FW.close();
 			
 		} catch (IOException e) {
-			System.out.println("Couldnt create File for user : " + Name);
+			con.Log("Couldnt create File for user : " + Name);
 			e.printStackTrace();
 		}
 		
@@ -287,7 +291,7 @@ public class FileManager {
 			return LevelFile;
 		}
 		
-		System.out.println("[" + java.time.LocalDate.now() + " / " + java.time.LocalTime.now() + "] : " + "ERROR someone requst Level that dosnt exist");
+		con.Log("[" + java.time.LocalDate.now() + " / " + java.time.LocalTime.now() + "] : " + "ERROR someone requst Level that dosnt exist");
 		
 		return null;
 		
@@ -300,11 +304,11 @@ public class FileManager {
 		
 		String curDir = new File("").getAbsolutePath();
 		
-//		System.out.println(curDir);
+//		con.Log(curDir);
 		
 		File levelFolder = new File(curDir + "/Levels");
 		
-//		System.out.println(levelFolder.getAbsolutePath());
+//		con.Log(levelFolder.getAbsolutePath());
 		
 		List<String> LevelListList = Arrays.asList(levelFolder.list());
 		
@@ -516,7 +520,7 @@ public class FileManager {
 		
 		for(String comment : commentList) {
 			
-//			System.out.println(comment);
+//			con.Log(comment);
 			
 			if(comment.contains("Author")) {
 				
@@ -787,21 +791,21 @@ public class FileManager {
 		
 		String[] textureMainFolderList = textureMainFolder.list();
 		
-//		System.out.println(" FM ");
-//		System.out.println("Folder List : ");
+//		con.Log(" FM ");
+//		con.Log("Folder List : ");
 		
 		for(String SubFolder : textureMainFolderList) {
 			
-//			System.out.println(" ");
-//			System.out.println("	-" + SubFolder + "-");
+//			con.Log(" ");
+//			con.Log("	-" + SubFolder + "-");
 			
 			String[] folderItems = new File(curDir + "/Textures/" + SubFolder).list();
 			
-//			System.out.println("		Texture List : ");
+//			con.Log("		Texture List : ");
 			
 			for(String texture : folderItems) {
 				
-//				System.out.println("		-" + texture + "-");
+//				con.Log("		-" + texture + "-");
 				
 				if(texture.contains(".png")) {
 					
