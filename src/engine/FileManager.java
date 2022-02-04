@@ -25,6 +25,56 @@ private Controller con;
 	
 	
 	
+	//accepted version
+	
+	public void setVersion(String ver) {
+		
+		String curDir = new File("").getAbsolutePath();
+		
+		File VersionFile = new File(curDir + "/"  + "Version.vi");
+		
+		try {
+			
+			BufferedWriter BW = new BufferedWriter(new FileWriter(VersionFile));
+			
+			BW.write(ver);
+			BW.flush();
+			
+			BW.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public String getVersion() {
+		
+		String curDir = new File("").getAbsolutePath();
+		
+		File VersionFile = new File(curDir + "/"  + "Version.vi");
+		
+		String version = null;
+		
+		try {
+			
+			BufferedReader BR = new BufferedReader(new FileReader(VersionFile));
+			
+			version = BR.readLine();
+			
+			BR.close();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+		return version;
+	}
+	
+	
+	
+	
 	
 	// Users
 	

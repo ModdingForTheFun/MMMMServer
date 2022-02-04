@@ -10,7 +10,7 @@ public class Controller extends Thread{
 public FileManager fiMa;
 	
 	
-public String AcceptedClientVersion = "0.7_1";
+public String AcceptedClientVersion = "0.7_2";
 	
 private Scanner in = new Scanner(System.in);
 
@@ -27,6 +27,10 @@ private entryPoint EP;
 		fiMa.LoadLog();
 		
 		fiMa.loadTextures();
+		
+		if(fiMa.getVersion() != null) {
+			AcceptedClientVersion = fiMa.getVersion();
+		}
 		
 		EP = new entryPoint(this);
 		
@@ -57,6 +61,7 @@ private entryPoint EP;
 			case("-SetVersion"):
 				System.out.println("Current acppeted version : " + AcceptedClientVersion);
 				AcceptedClientVersion = in.nextLine();
+				fiMa.setVersion(AcceptedClientVersion);
 			break;
 			
 			case("-GetVersion"):
