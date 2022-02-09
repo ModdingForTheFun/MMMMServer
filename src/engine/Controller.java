@@ -10,7 +10,7 @@ public class Controller extends Thread{
 public FileManager fiMa;
 	
 	
-public String AcceptedClientVersion = "0.7_2";
+public String AcceptedClientVersion = "0.7_4";
 	
 private Scanner in = new Scanner(System.in);
 

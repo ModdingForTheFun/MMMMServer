@@ -737,10 +737,10 @@ private Controller con;
 					
 					int curvote = 0;
 					
-					text.add(BR.readLine());
+					text.add(BR.readLine()); // First line is the actual calculatet vote
 					
 					
-					while((readLine = BR.readLine()) != null) {
+					while((readLine = BR.readLine()) != null) { //User Key
 						text.add(readLine); // Username
 						
 						String val = BR.readLine(); // vote val
@@ -808,6 +808,8 @@ private Controller con;
 				BW.write(vote + "");
 				BW.newLine();
 				BW.write(User);
+				BW.newLine();
+				BW.write(vote + "");
 				BW.newLine();
 				
 				BW.close();
