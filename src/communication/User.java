@@ -183,10 +183,12 @@ private LocalDateTime deathTime;
 				if(currentTime.isAfter(deathTime)) {
 					try {
 						
+						connected = false;
+						
 						dataIn.close();
 						dataOut.close();
 						client.close();
-					
+						
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
