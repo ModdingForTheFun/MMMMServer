@@ -329,7 +329,9 @@ private Controller con;
 		return false;
 	}
 	
-	public File getMapAsFile(String levelname) {
+	public File[] getMapFiles(String levelname) {
+		
+		File[] mapFiles = null;
 		
 		String RealName = levelname + ".dat";
 		
@@ -338,7 +340,91 @@ private Controller con;
 		File LevelFile = new File(curDir + "/Levels/" + RealName);
 		
 		if(LevelFile.exists()) {
-			return LevelFile;
+			
+			LinkedList<String> commentList = new LinkedList<String>();
+			
+			FileReader FR;
+			
+			try {
+				
+				FR = new FileReader(LevelFile);
+				
+				BufferedReader BR = new BufferedReader(FR);
+				
+				boolean commentEnd = false;
+				
+				while(!commentEnd) {
+					
+					try {
+						
+						String line = BR.readLine();
+						
+						if(line.contains("}")) {
+							commentEnd = true;
+						}else {
+							commentList.add(line);
+						}
+						
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+					
+				}
+				
+				BR.close();
+				FR.close();
+				
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			
+			String AssetPath = "";
+			int stringStart;
+			
+			for(String comment : commentList) {
+				
+//				System.out.println(comment);
+				
+				if(comment.contains("Asset")) {
+					
+					stringStart = comment.indexOf(':') + 1;
+					
+					AssetPath = comment.substring(stringStart,comment.length());
+					
+				}
+				
+			}
+			
+			if(AssetPath.contains("ASSETS") && AssetPath.contains(levelname)) {
+				
+				String[] assets = new File(curDir + "/Levels/ASSETS/Sounds/" + levelname).list();
+				
+				mapFiles = new File[assets.length + 1];
+				
+				int count = 1;
+				
+				for(String assetFile : assets) {
+					
+					System.out.println(curDir + "/Levels/ASSETS/Sounds/" + levelname + "/" + assetFile);
+					
+					mapFiles[count] = new File(curDir + "/Levels/ASSETS/Sounds/" + levelname + "/" + assetFile);
+					
+					count++;
+					
+				}
+				
+			}else {
+				
+				mapFiles = new File[1];
+				
+			}
+			
+			mapFiles[0] = LevelFile;
+			
+			return mapFiles;
 		}
 		
 		con.Log("[" + java.time.LocalDate.now() + " / " + java.time.LocalTime.now() + "] : " + "ERROR someone requst Level that dosnt exist");

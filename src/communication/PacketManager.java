@@ -211,9 +211,10 @@ private byte[] data = new byte[4096];
 			//get Levelname
 			String Levelname = getString();
 			//get Level As File
-			File mapFile = con.fiMa.getMapAsFile(Levelname);
+			File[] mapFiles = con.fiMa.getMapFiles(Levelname);
 			//write file
-			user.writeFile(new File[]{mapFile},"Map");
+			user.writeFile(mapFiles,"Map");
+			
 		break;
 		
 		case("0x12"): //AssetsUpload from Client

@@ -470,6 +470,10 @@ private LocalDateTime deathTime;
 				System.out.println("Finisht File : " + file.getName());
 				}
 				
+				if(fileType.equals("Map")) {
+					fileType = "MapAssets";
+				}
+				
 			}
 			
 			
@@ -728,6 +732,14 @@ private LocalDateTime deathTime;
 				}
 				
 //				System.out.println("File Size : " + FILE.length());
+				
+				if(ID.equals("0x34")) {
+					
+					if(!FILE.getName().contains(".ogg")) {
+						FILE.delete();
+					}
+					
+				}
 				
 				FileCount++;
 			}
